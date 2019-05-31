@@ -1,0 +1,2 @@
+sd=input()
+print(sd+'.')

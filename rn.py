@@ -1,19 +1,19 @@
-def roman(x):
-    if x=='I':
+def roman(y):
+    if y=='I':
         return(1)
-    if x=='V':
+    if y=='V':
         return(5)
-    if x=='X':
+    if y=='X':
         return(10)
-a=input()
+i=input()
 c=0
-if a=='IV':
+if i=='IV':
     print(4)
-elif a=='IX':
+elif i=='IX':
     print(9)
-elif a=='XIV':
+elif i=='XIV':
     print(14)
-elif a=='XIX':
+elif i=='XIX':
     print(19)
 else:
     for i in a:
